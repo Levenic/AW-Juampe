@@ -1,0 +1,124 @@
+html{font-size: 62.5%;}
+
+@font-face {
+    font-family: "Sarcolenta";
+    src: url(./Sarcolenta.ttf);
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Sarcolenta';
+}
+
+.menu{
+    width: 100%;
+    background-color: black;
+    margin: 0;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+.menu ul li:hover{
+    background-color: gold
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#imgportada{
+    margin-top: 5rem;
+    width: 90%;
+    display: block;
+    margin: 5rem auto;
+    border-radius: 4rem;
+}
+
+#titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#pizza1{
+    border-radius: 2rem;
+    margin-right: 10rem;
+}
+#pizza2{
+    border-radius: 2rem;
+    margin-left: 10rem;
+}
+#bloques{
+    text-align: center;
+    background-color: gold;
+    width: 70%;
+    margin-left: 10rem;
+}
+#bloques p{
+    margin-top: 4rem;
+    color: white;
+    font-size: large;
+}
+
+.centrado{
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    color: grey;
+}
+
+#formulario{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: grey;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+input{
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+#cuadro{
+    height: 20rem;
+}
+
+#recetas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gold;
+}
+
+#recetas p{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(28, 26, 26);
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
